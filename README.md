@@ -33,3 +33,5 @@ Tudo em honra ao dia da criança
 [Instagram](https://instagram.com/vilarezz_)
 
 [Twitter](https://twitter.com/vilarezz)
+
+[Rocketseat](https://app.rocketseat.com.br/me/vilarezz)
