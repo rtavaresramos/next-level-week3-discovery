@@ -15,6 +15,6 @@ server.get('/orphanage', pages.orphanage)
 server.get('/orphanages', pages.orphanages)
 server.get('/create-orphanage', pages.createOrphanage)
 
-server.listen(5500, () => {
+server.listen(process.env.PORT || 5500, () => {
   console.log('Server started')
 })
