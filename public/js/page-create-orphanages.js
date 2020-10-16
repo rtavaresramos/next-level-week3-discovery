@@ -84,3 +84,5 @@ function toggleSelect(event) {
   // Verificar se é sim ou não
   input.value = button.dataset.value
 }
+
+function validate(event) {}

@@ -6,15 +6,18 @@ const pages = require('./pages.js')
 const server = express()
 
 server
+  .use(express.urlencoded({ extended: true }))
+
   .use(express.static('public'))
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'hbs')
 
-server.get('/', pages.index)
-server.get('/orphanage', pages.orphanage)
-server.get('/orphanages', pages.orphanages)
-server.get('/create-orphanage', pages.createOrphanage)
+  .get('/', pages.index)
+  .get('/orphanage', pages.orphanage)
+  .get('/orphanages', pages.orphanages)
+  .get('/create-orphanages', pages.createOrphanage)
+  .post('/create-orphanages', pages.saveOrphanage)
 
 server.listen(process.env.PORT || 5500, () => {
-  console.log('Server started')
+  console.log('Server started 💯')
 })

@@ -40,7 +40,7 @@
     </aside>
 
     <main class="with-sidebar">
-      <form action="">
+      <form action="create-orphanages" method="post" onsubmit="validate(event)">
         <fieldset>
           <legend>Dados</legend>
 
@@ -107,12 +107,8 @@
             <input type="hidden" id="open_on_weekends" name="open_on_weekends" value="1" required />
 
             <div class="button-select">
-              <button data-target="1" onclick="toggleSelect(event)" type="button" class="active">
-                Sim
-              </button>
-              <button data-target="0" onclick="toggleSelect(event)" type="button">
-                Não
-              </button>
+              <button data-value="1" onclick="toggleSelect(event)" type="button" class="active">Sim</button>
+              <button data-value="0" onclick="toggleSelect(event)" type="button">Não</button>
             </div>
 
             <button type="submit" class="primary-button">Confirmar</button>
