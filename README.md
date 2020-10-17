@@ -2,7 +2,7 @@
 
 Projecto criado pela @Rocketseat para a terceira edição do evento Next Level Week.
 
-![Happy](/images/preview.jpg)
+![Happy](public/images/preview.jpg)
 
 Com a proposta em fazer pessoas visitarem orfanatos e mudar o dia das crianças.
 
