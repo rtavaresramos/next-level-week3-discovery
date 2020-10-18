@@ -1,5 +1,5 @@
 #page-landing {
-  background: linear-gradient(329.54deg, #4af5d0 0%, #0098c7 100%);
+  background: linear-gradient(329.54deg, #aad576 0%, #ff6d00 100%);
 
   text-align: center;
   min-height: 100vh;
@@ -21,6 +21,7 @@ h1,
 
 #logo {
   animation-delay: 50ms;
+  z-index: 1000;
 }
 
 .location {
@@ -64,7 +65,7 @@ main h1 {
   #container {
     padding: 5rem 2rem;
     /* shorthand background: image repeat position / size */
-    background: url("../images/bg.svg") no-repeat 80% /
+    background: url('../images/bg.svg') no-repeat 80% /
       clamp(30rem, 28vw, 56rem);
   }
 
